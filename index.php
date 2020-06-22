@@ -71,9 +71,9 @@ try {
                     <tbody class="">
                     <?php foreach($result as $value) { ?>
                         <tr>
-                            <th><?php echo '$value[id]';?></th>
-                            <th><?php echo '$value[name]';?></th>
-                            <th><?php echo '$value[age]';?></th>
+                            <th><?php echo "$value[id]";?></th>
+                            <th><?php echo "$value[name];?></th>
+                            <th><?php echo "$value[age]";?></th>
                         </tr>
                         <?php } ?>
                         <tr>
