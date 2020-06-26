@@ -18,6 +18,6 @@ try {
     header('Location: index.php?fg=1');
     
 } catch (PDOException $e) {
-    print "Failed: " . $e->getMessage() . "\n";
-    exit();
+	header('Location: index.php?fg=2?err='.$e->getMessage());
+	exit();
 ?>
