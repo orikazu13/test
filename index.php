@@ -90,7 +90,21 @@ try {
                     </table>
             </div>
             <div class="tab-pane" id = "insert">
-                <p>sample 2</p>
+                <form action=".insert.php" method="POST">
+                    <div class="form-group">
+                        <label for="id">ID</label>
+                        <input type="text" class="form-control" id="id" name="id">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">NAME</label>
+                        <input type="text" class="form-control" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">ID</label>
+                        <input type="text" class="form-control" id="age" name="age">
+                    </div>
+                    <button type="submit" class="btn btn-primary">insert</button>
+                </form>
             </div>
             <div class="tab-pane"id ="up">
                 <p>sample 3</p>
