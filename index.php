@@ -5,7 +5,7 @@ $password = 'Kazu@1313';
 try {
     $dbh = new PDO($dsn, $user, $password);
     print "Success\n";
-    $sql ="select * from kazuto;";
+    $sql ="select * from user;";
     $result = $dbh->query($sql);
     
 } catch (PDOException $e) {
