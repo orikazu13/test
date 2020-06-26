@@ -90,7 +90,7 @@ try {
                     </table>
             </div>
             <div class="tab-pane" id = "insert">
-                <form class = "mt-5"action=".insert.php" method="POST">
+                <form class = "mt-5"action="./insert.php" method="POST">
                     <div class="form-group">
                         <label for="id">ID</label>
                         <input type="text" class="form-control" id="id" name="id">
@@ -100,7 +100,7 @@ try {
                         <input type="text" class="form-control" id="name" name="name">
                     </div>
                     <div class="form-group">
-                        <label for="age">ID</label>
+                        <label for="age">AGE</label>
                         <input type="text" class="form-control" id="age" name="age">
                     </div>
                     <button type="submit" class="btn btn-primary">insert</button>
