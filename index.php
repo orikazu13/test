@@ -12,8 +12,7 @@ try {
     print "Failed: " . $e->getMessage() . "\n";
     exit();
 }
-    $sql ="select * from sample;";
-    $result = $dbh->query($sql);
+
 ?>
 
 
