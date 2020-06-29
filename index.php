@@ -41,7 +41,13 @@ try {
             <h1 class="display-4">DB Manager -sample_db</h1>
             <p class="read">sampleのやつやぞ<br>aaaaaaaaaaaS</p>
         </div>
-    </div>
+	</div>
+	
+	<?php if($_GET['fg'] == 1) { ?>
+		<p>Success</p>
+	<?php } else if ($_GET['fg'] == 2) { ?>
+		<p>Failed</p>
+	<?php } ?>
     <div class="container">
 		<ul class="nav nav-tabs">
 			<li class="nav-item">
